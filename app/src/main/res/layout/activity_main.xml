@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fadingEdge="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:id="@+id/image_1"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/a"
+                    android:layout_height="80dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="$899"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Air Jordan 1"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:id="@+id/image_2"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/b"
+                    android:layout_height="80dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="$1199"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Yeezy 350"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/image_3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/c">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:gravity="center"
+                    android:text="$1399"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Air Force 1"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:id="@+id/image_4"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/d"
+                    android:layout_height="80dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="$999"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Air Jordan 4"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:id="@+id/image_5"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/f"
+                    android:layout_height="80dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="$1499"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Air Jordan 6"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:id="@+id/image_6"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/i"
+                    android:layout_height="80dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="$1099"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Air Jordan 11"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:id="@+id/image_7"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/j"
+                    android:layout_height="80dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="$999"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Air Jordan 16"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:id="@+id/image_8"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/h"
+                    android:layout_height="80dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="$899"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Air Jordan 20"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:id="@+id/image_9"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/g"
+                    android:layout_height="80dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="$1599"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Air Jordan 4 Navy"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
